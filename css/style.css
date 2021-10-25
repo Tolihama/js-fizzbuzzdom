@@ -17,6 +17,7 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
+
 /* CONTAINER */
 .container {
     display: flex;
@@ -39,7 +40,6 @@ h1 {
     height: 80px;
     margin: 15px;
     background-color: #1389b2;
-    text-align: center;
 }
 
 /* multipli di 3 e 5 */
