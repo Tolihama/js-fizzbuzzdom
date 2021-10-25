@@ -3,5 +3,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: sans-serif;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #083b4c;
+}
+
+h1 {
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+/* CONTAINER */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ROW */
+.row {
+    display: flex;
+    width: 100%;
+}
+
+/* SQUARES */
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+    background-color: #1389b2;
+    text-align: center;
+}
+
+/* multipli di 3 e 5 */
+.square.fizzbuzz {
+    background-color: #f0466f;
+}
+
+/* multipli di 3 */
+.square.fizz {
+    background-color: #0bd6a1;
+}
+
+/* multipli di 5 */
+.square.buzz {
+    background-color: #ffd166;
 }
