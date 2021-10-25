@@ -21,13 +21,13 @@ h1 {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 /* ROW */
 .row {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 /* SQUARES */
